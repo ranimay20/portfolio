@@ -265,7 +265,8 @@ nav a:hover {
         }
         .project h3 {
             font-size: 20px;
-            white-space: nowrap;
+            white-space: normal;
+            display: block;
         }
         .project-btn {
             max-width: 100%;
