@@ -304,6 +304,7 @@ text-align: center;
     .certificate-card p,
     .cv p {
         text-align: center;
+        color: #222222;
     }
     .certifications .project-btn,
     .cv .project-btn {
