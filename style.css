@@ -169,6 +169,12 @@ nav a:hover {
     font-size: 22px;
     margin-bottom: 15px;
 }
+.projects-container .project:nth-child(2) h3 {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    color: #38bdf8;
+}
 .project p {
     font-size: 15px;
     margin-bottom: 20px;
@@ -257,7 +263,11 @@ nav a:hover {
             min-width: 0;
             box-sizing: border-box;
         }
-        .priject-btn {
+        .project h3 {
+            font-size: 20px;
+            white-space: nowrap;
+        }
+        .project-btn {
             max-width: 100%;
             box-sizing: border-box;
         }
@@ -303,4 +313,4 @@ text-align: center;
     .certifications .project-btn,
     .cv .project-btn {
         display: inline-block;
-    }
+      } 
