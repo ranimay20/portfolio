@@ -169,12 +169,6 @@ nav a:hover {
     font-size: 22px;
     margin-bottom: 15px;
 }
-.projects-container .project:nth-child(2) h3 {
-    display: block;
-    visibility: visible;
-    opacity: 1;
-    color: #38bdf8;
-}
 .project p {
     font-size: 15px;
     margin-bottom: 20px;
