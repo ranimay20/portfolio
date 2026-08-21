@@ -309,3 +309,46 @@ text-align: center;
     .cv .project-btn {
         display: inline-block;
       } 
+      /* container styling */
+      .cv-card, .certificate-card {
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+      }
+      /* button styling for project & cv links */
+      .project-btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 10px;
+        transition: background-color 0.3s ease;
+      }
+        .project-btn:hover {
+            background-color: #0056b3;
+        }
+        /* contact links layout */
+        .contact-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .contact-link a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact-link a:hover {
+            text-decoration: underline;
+        }
+        /* footer styling */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+            color: #fff;
+            margin-top: 40px;
+        }
